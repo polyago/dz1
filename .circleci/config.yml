@@ -1,9 +1,9 @@
 jobs:
- build:
-  docker:
-   - image: circleci/python:3.6.4
- steps:
-- checkout     
+build:
+docker:
+- image: circleci/python:3.6.4
+steps:
+- checkout 
 - run: sudo pip install jupyter_client
 - run: sudo pip install nbconvert
 - run: sudo pip install numpy
