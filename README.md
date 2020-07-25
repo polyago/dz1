@@ -1,2 +1,2 @@
 
-[!polyago](https://circleci.com/github/polyago/dz1.svg?style=svg)](https://22-281478492-gh.circle-artifacts.com/0/test-reports)
+[!polyago](https://circleci.com/gh/polyago/dz1.svg?style=svg)](https://22-281478492-gh.circle-artifacts.com/0/test-reports)
