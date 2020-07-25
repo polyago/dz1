@@ -15,4 +15,4 @@ jobs:
       - run: jupyter nbconvert --execute ./task1.ipynb --to html
       - store_artifacts:
           path: ./task1.html
-          destination: test-reports
+          destination: tests
