@@ -11,7 +11,7 @@ steps:
 - run: sudo pip install sklearn
 - run: sudo python3 -m pip install ipykernel
 - run: sudo python3 -m ipykernel install --user
-- run: jupyter-nbconvert --execute ./task1.ipynb
+- run: jupyter-nbconvert --execute ./task1.ipynb --to html
 - store_artifacts:
 path: ./task1.html
-destination: task1.html
+destination: test-reports
